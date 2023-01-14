@@ -1,0 +1,96 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+li, legend {
+    font-size: 22px;
+    color: yellow;
+    font-family: Goudy Old Style;
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: gray;
+}
+
+legend {
+    background-color: gray;
+    display: block;
+    justify-items: center;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    padding: 20px;
+    border: 3px solid grey;
+    border-radius: 30px;
+    background-color: rgb(212, 211, 211);
+}
+
+input[type=text] {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    padding: 5px;
+    color: brown;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+
+label {
+    display: inline-block;
+    padding: 5px;
+    color: brown;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+}
+
+
+div {
+    margin: 10px;
+    display: block;
+    justify-items: center;
+}
+
+textarea {
+    padding: 5px;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: moccasin;
+    color: brown;
+    border: 1px solid grey;
+    display: block;
+    justify-items: center;
+    margin: auto;
+}

@@ -1,0 +1,77 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+li, h2 {
+    font-size: 22px;
+    color: yellow;
+    font-family: Goudy Old Style;
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 20px;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    'one one two'
+    'one one three'
+    'four five five'
+    'six five five';
+}
+
+figure {
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

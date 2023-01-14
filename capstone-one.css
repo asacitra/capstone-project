@@ -1,0 +1,55 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px 0px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+li, h2 {
+    font-size: 22px;
+    color: yellow;
+    font-family: Goudy Old Style;
+    border-radius: 15px;
+    border: 2px solid gray;
+    padding: 10px;
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    column-gap: 30px;
+}
+
+#info {
+    width: 40%;
+    padding: 20px;
+    text-align: justify;
+}
+
+#image {
+    width: 40%;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Book Antiqua;
+    font-weight: normal;
+}
